@@ -1,0 +1,307 @@
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", Arial, sans-serif;
+}
+/*-------------Header--------------------------------*/
+
+.main_images {
+  background-image: url(images/agenda.jpg);
+  width: 100%;
+  display: block;
+  height: 50em;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.nav-main {
+        background-color:#1a1a1a;
+        width: 100%;
+        height: 50px;
+        /*position: fixed;*/
+       } 
+.nav-logo{
+        display: inline-block;
+        padding-top: 0.7em;
+        padding-left: 0.7em;
+}
+.logo-header{
+  padding-left:4em;
+}
+.logo-header{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: #fff;
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  line-height: 1.5em;
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+}
+.logo-header span{
+  padding-left:2em;
+  margin-top: 1em;
+}
+#navbar {
+        display: inline-block;
+        text-decoration: none;
+        float: right;
+}
+#navbar li{
+        display: inline-block;
+}
+#navbar li a{
+         text-decoration: none;
+         color: #fff;
+         text-align: center;
+         padding: 0.8em;
+         font-family: "Arial", Arial, sans-serif;
+         font-size: 1em;
+}
+#navbar a:hover{
+        color: #000;
+        background-color: #b0b0b0;
+        text-decoration: none;
+}
+/*-------------------Features--------------------*/
+.full-testing{
+  background-color: #D5CDCD;
+  text-align: center;
+  padding-top: 1.8em;
+  margin-bottom: 2.5em;
+}
+.full-testing h2 {
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 2em;
+  font-weight:bold;
+}
+.features{
+  display: inline-block;
+  width: 25%;
+  padding: 0.7em;
+  padding-bottom: 2em;
+}
+.features_cicle{
+  width: 10em;
+  height: 10em;
+  background-color: white;
+  border-radius: 50%; 
+  margin: auto;
+}
+.features_cicle img {
+  margin: 2.5em 0;
+}
+.features:hover{
+  box-shadow: 0 0 5em #89FFFF;
+}
+.features h3{
+  font-family: "Arial", Arial, sans-serif;
+  color: #000;
+}
+.features-img img{
+	padding-top: 4em;
+}
+.features-img h3 {
+	padding-top: 2em;
+}
+/*------------------School-level-----------------*/
+.school-level{
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+.education-level{
+  width: 27%;
+  display: inline-block;
+  background-color: rgba(36, 124, 2, 0.7);
+  margin-bottom: 20px;
+  height: 21em;
+  margin: 1em;
+  overflow: hidden;
+}
+.education-level:hover{
+  box-shadow: 0 0 50px #89FFFF;
+}
+.colorfff{
+  color: #fff;
+}
+
+.level-1, .level-2, .level-3, .level-4, .level-5, .level-6{
+  height: 100%;
+  padding-top: 5em;
+  background-repeat: no-repeat;
+}
+.level-1{ 
+  background-image: url(images/Rectangle55.png);
+}
+.level-2{
+  background-image: url(images/Rectangle56.png);
+}
+.level-3{
+  background-image: url(images/Rectangle57.png);
+} 
+.level-4{
+  background-image: url(images/Rectangle58.png);
+}
+.level-5{
+  background-image: url(images/Rectangle59.png);
+}
+.level-6{
+  background-image: url(images/Rectangle60.png);
+} 
+
+/*----------------------------form---------------*/
+.form_sbscrb{
+margin: 0;
+padding: 0;
+background-image: url(images/Rectangle65.png);
+width: 100%;
+/*height: 12.5em;*/
+padding: 4em;
+background-repeat: no-repeat;
+text-align: center;
+}
+
+.form_sbscrb{
+  margin-top: 2em;
+  /*padding-top: 4em;*/
+}
+.form_sbscrb span{
+  color: #fff;
+  font-size: 2em;
+  font-family: "Arial", Arial, sans-serif;
+}
+.form_sbscrb input[type="text"] {
+  border: none;
+  background-color: transparent;
+  border-bottom: 0.1em solid #fff;
+  width: 15em;
+}
+.form_sbscrb input[type="submit"]{
+  border: 0.1em solid #fff;
+  background-color: green;
+  width: 7em;
+  height: 2em;
+  border-radius: 2em;
+  color: #fff;
+  font-size: 1.3em;
+  font-family: "Arial", Arial, sans-serif, bold;
+
+}
+
+/*-----------------------Footer------------------------*/
+.main_images {
+  background-image: url(images/agenda.jpg);
+  width: 100%;
+  display: block;
+  height: 50em;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.nav-footer {
+        width: 100%;
+        height: 50px;
+       } 
+.nav-logo-footer{
+        display: inline-block;
+        padding-top: 0.7em;
+        padding-left: 0.7em;
+}
+.logo-footer{
+  padding-left:4em;
+}
+h1.logo-footer{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: #fff;
+  font-family: "Arial", Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight:bold;
+  line-height: 1.5em;
+  background-image: url(images/logo.png);
+  background-repeat: no-repeat;
+}
+.logo-footer span{
+  padding-left:2em;
+  margin-top: 1em;
+}
+#footer{
+  background-color: #1a1a1a;
+  padding: 3em;
+  margin-top: 2em;
+}
+
+@media screen and (max-width: 768px ) {
+  header #navbar {
+    display: none;
+  }
+  .main_images{
+    width: 100%;
+    height: 11em;
+  }
+  .full-testing{
+    text-align: center;
+  }
+  .features{
+    width: 90%;
+    padding: 0 1.4em;
+  }  
+  .school-level {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .education-level {
+    width: 90%;
+    display: block;
+    margin: 0.8em auto;
+  }
+  .form_sbscrb{
+   width: 100%;
+   padding: 2em 0;
+  }
+  .form_sbscrb span{
+    font-size: 1em;
+  }
+  .form_sbscrb input[type="text"] {
+    display: block;
+    width: 50%;
+    margin: 0 auto 2em;
+  }
+  .form_sbscrb input[type="submit"]{
+    width: 5em;
+    font-size: 1em;
+  }
+#footer{
+  padding: 2em;
+  margin-top: 1em;
+}
+#navbar{
+  width: 100%;
+  margin: 0;
+}
+.nav-logo-footer{
+  width: 60%;
+  text-align: center;
+}
+#navbar li{
+  width: 100%;
+}
+.nav-footer #navbar li a {
+  display: block;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #b0b0b0;
+
+  }
+.nav-footer {
+  margin: 0;
+  text-align: center;
+  margin-top: 0.5em;
+}
+#footer{
+margin: 0;
+padding: 0;
+}
+}
